@@ -3,11 +3,9 @@ def fizzbuzz(num)
      "Fizz"
   elsif num % 5 == 0
     "Buzz"
-  end
-  if num % 3 && 5 == 0
+  elsif num % 3 && 5 == 0
     "FizzBuzz"
-  end
-  if num % 3 || 5 != 0
+  else num % 3 || 5 != 0
     nil
   end
 end
